@@ -184,7 +184,9 @@ while running:
             if event.key == K_s or event.key == K_DOWN:
                 keys[2] = False
             if event.key == K_d or event.key == K_RIGHT:
-                keys[3] = False
+                
+
+189
 
         if event.type == pygame.MOUSEBUTTONDOWN:
             shoot.play()
